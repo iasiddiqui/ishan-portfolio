@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal website</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer type="text/javascript" src="app.js"></script>
+    <script src="https://kit.fontawesome.com/8b3b77fd29.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpg" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <!-- <p>Student</p> -->
+                <h1>Hi I'm <span>ISHAN</span><br>from Hyderabad<br></h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------About-------->
+
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/ishan pic.jpg">
+
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptate enim saepe fugit!
+                        Distinctio, at, temporibus voluptas eaque, voluptates facilis similique vel obcaecati earum a
+                        nostrum exercitationem rem eos. Eligendi?</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/app interface</li>
+                            <li><span>web dev</span><br>Designing web/app</li>
+                            <li><span>software Designing</span><br>Designing softwares </li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Graphic Designer(2021)</span><br>Designing social media posts and websites</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - 2024 </span><br>Pursuing Btech</li>
+                            <li><span>2018-2021</span><br>Diploma in Coumputer Science & Engineering</li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------Projects-------- -->
+    <div id="Projects">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="Projects-list">
+                <div>
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Online Voting System</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eaque temporibus vero labore ab
+                        repellat eveniet magni dolorum. Molestias, ducimus perferendis? Aperiam nobis obcaecati magnam
+                        corporis quaerat deleniti. Aliquam, sed!</p>
+                    <a href="https://github.com/iasiddiqui/An_Voting_System">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-figma"></i>
+                    <h2>UI?UX</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eaque temporibus vero labore ab
+                        repellat eveniet magni dolorum. Molestias, ducimus perferendis? Aperiam nobis obcaecati magnam
+                        corporis quaerat deleniti. Aliquam, sed!</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Software Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eaque temporibus vero labore ab
+                        repellat eveniet magni dolorum. Molestias, ducimus perferendis? Aperiam nobis obcaecati magnam
+                        corporis quaerat deleniti. Aliquam, sed!</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------contact---------------- -->
+    <div></div>
+
+
+</body>
+
+</html>
